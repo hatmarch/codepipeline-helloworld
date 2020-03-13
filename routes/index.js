@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'My Demo Page - Local Checkin' });
+  res.render('index', { title: 'My Demo Page - CodeDeploy Checkin' });
 });
 
 module.exports = router;
